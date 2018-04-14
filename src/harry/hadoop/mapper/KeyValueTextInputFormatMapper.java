@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.Mapper;
  * @author harry
  *
  */
-public class WordMapper extends Mapper<Text, Text, Text, IntWritable>{
+public class KeyValueTextInputFormatMapper extends Mapper<Text, Text, Text,IntWritable>{
 	@Override
 	protected void map(Text key, Text value, Mapper<Text, Text, Text, IntWritable>.Context context)
 			throws IOException, InterruptedException {
