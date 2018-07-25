@@ -7,7 +7,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import harry.hadoop.writable.PhoneWritable;
-import javafx.scene.shape.VLineTo;
 
 /**
  * 

@@ -21,4 +21,10 @@
 		<name>fs.default.name</name>
 		<value>hdfs://192.168.0.128:9000</value>
 	</property>
+	
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/soft/hadoop-2.6.0/tmp/hadoop-${user.name}</value>
+		<description>A base for other temporary directories.</description>
+	</property>
 </configuration>

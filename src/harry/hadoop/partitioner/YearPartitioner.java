@@ -1,4 +1,4 @@
-package harry.hadoop;
+package harry.hadoop.partitioner;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
